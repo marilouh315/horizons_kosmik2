@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://iaijpxo8ubrh"]
+
+[ext_resource type="PackedScene" uid="uid://cnj7y7flx2kfv" path="res://scenes/niveau1/tilemap.tscn" id="1_ybu2i"]
+[ext_resource type="PackedScene" uid="uid://jv41d6m66iba" path="res://scenes/niveau1/parallax_background.tscn" id="7_3ppiw"]
+
+[node name="niveau1" type="Node2D"]
+
+[node name="tilemap" parent="." instance=ExtResource("1_ybu2i")]
+position = Vector2(304, 248)
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("7_3ppiw")]
