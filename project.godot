@@ -14,6 +14,10 @@ config/name="horizons_kosmik"
 run/main_scene="res://scenes/niveau1/niveau_1.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 
+[autoload]
+
+Evenements="*res://scripts/evenements.gd"
+
 [display]
 
 window/size/initial_screen=14
